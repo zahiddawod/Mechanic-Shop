@@ -1,0 +1,81 @@
+CONTENTS OF THIS FILE
+-------------------
+ * Purpose of software
+ * Developer
+ * File list
+ * How to compile
+ * How to run executable
+
+-------------------
+-- Purpose of software
+-------------------
+
+The purpose of this software is to simulate a program for an automotive mechanic business to keep
+track of their customers and their vehicles.
+
+-------------------
+-- Developer
+-------------------
+
+Auther: Zahid Dawod
+Development Date: 26/03/2018
+
+-------------------
+-- File list
+-------------------
+
+mechanicshop.exe
+
+Makefile.txt
+
+main.cc
+Shop.cc
+ShopController.cc
+View.cc
+Customer.cc
+CustomerList.cc
+Vehicle.cc
+VehicleList.cc
+Person.cc
+Mechanic.cc
+
+defs.h
+Shop.h
+ShopController.h
+View.h
+Customer.h
+CustomerList.h
+Vehicle.h
+VehicleList.h
+Person.h
+Mechanic.h
+
+main.o
+Shop.o
+ShopController.o
+View.o
+Customer.o
+CustomerList.o
+Vehicle.o
+VehicleList.o
+Person.o
+Mechanic.o
+
+-------------------
+-- How to compile
+-------------------
+
+In order to compile ensure you have all the files available by extracting it from the tar file into a folder.
+After that type 'make' in the console while being in the same directory as the files you extracted from the tar file.
+
+Compiling program (Example):
+1. Ensure that you are in the directory of the file you are trying to compile
+2. Type 'make'
+3. Then an executable file will be created for that program
+
+-------------------
+-- How to run executable
+-------------------
+
+Once the program is compiled type "./mechanicshop' into your console and the program will execute.
+
